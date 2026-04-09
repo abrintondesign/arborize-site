@@ -126,7 +126,7 @@
       "name": "How much will it cost to prune my tree?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tree pruning costs depend on several factors including the tree’s location, size, accessibility, species, the amount of pruning required and whether the tree is hazardous. A site visit is required to properly quote the work. Please include your address, phone number and email when reaching out so a visit can be scheduled and your quote can be emailed to you."
+        "text": "Tree pruning costs depend on several factors including the tree’s location, size, accessibility, species, the amount of pruning required and whether the tree is hazardous. Arborize reviews each property before providing a quote. Please include your address, phone number and email when reaching out so the job can be assessed and your estimate can be sent to you."
       }
     },
     {
@@ -142,7 +142,7 @@
       "name": "How much does it cost to remove a tree?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Tree removal costs depend on factors such as location, size, accessibility, species and whether the tree is hazardous. A site visit is required to properly quote the job. Please include your address, phone number and email when contacting Arborize so a visit can be scheduled and your quote can be emailed to you."
+        "text": "Tree removal costs depend on factors such as location, size, accessibility, species and whether the tree is hazardous. Arborize reviews each property before providing a quote. Please include your address, phone number and email when contacting Arborize so the job can be assessed and your estimate can be sent to you."
       }
     },
     {
@@ -177,6 +177,137 @@ text-transform:uppercase;
 </style>
 
 <script async src="https://tally.so/widgets/embed.js"></script>
+
+<style>
+/* Elite trust credentials spacing */
+.why-proof-strip{
+display:flex;
+flex-wrap:wrap;
+gap:18px 32px;
+align-items:center;
+margin-top:34px;
+}
+
+.why-proof-item{
+display:inline-flex;
+align-items:center;
+gap:10px;
+padding:0;
+border:none;
+background:none;
+border-radius:0;
+font-family:'Barlow Condensed',sans-serif;
+font-weight:600;
+letter-spacing:.03em;
+font-size:15px;
+color:#1e2a1f;
+}
+
+.why-proof-item svg{
+width:18px;
+height:18px;
+stroke:#caa03a;
+flex-shrink:0;
+}
+
+@media (max-width:768px){
+.why-proof-strip{
+gap:14px 20px;
+}
+.why-proof-item{
+font-size:14px;
+}
+}
+</style>
+
+
+<style>
+/* Button rollover contrast fix */
+.btn.btn-call,
+.btn.btn-call:visited,
+.btn.btn-call:hover,
+.btn.btn-call:focus-visible,
+.btn.btn-primary.services-header-button,
+.btn.btn-primary.services-header-button:hover,
+.btn.btn-primary.services-header-button:focus-visible,
+.elite-footer-cta,
+.elite-footer-cta:hover,
+.elite-footer-cta:focus-visible{
+color:#102019 !important;
+text-decoration:none;
+}
+
+.btn.btn-call:hover,
+.btn.btn-call:focus-visible,
+.btn.btn-primary.services-header-button:hover,
+.btn.btn-primary.services-header-button:focus-visible,
+.elite-footer-cta:hover,
+.elite-footer-cta:focus-visible{
+background:linear-gradient(180deg, #f5cf58 0%, #ddb33a 100%) !important;
+border-color:rgba(210,167,66,.34) !important;
+box-shadow:0 16px 38px rgba(0,0,0,.28) !important;
+filter:none !important;
+}
+
+.btn.btn-call:hover svg,
+.btn.btn-call:focus-visible svg,
+.btn.btn-primary.services-header-button:hover svg,
+.btn.btn-primary.services-header-button:focus-visible svg,
+.elite-footer-cta:hover svg,
+.elite-footer-cta:focus-visible svg{
+stroke:currentColor;
+fill:none;
+}
+</style>
+
+
+<style>
+/* ELITE CTA BUTTON — refined hover interaction */
+.btn.btn-call{
+background:linear-gradient(180deg,#f2c94c 0%,#e3b73d 100%);
+color:#102019;
+border-radius:999px;
+padding:14px 30px;
+font-weight:600;
+letter-spacing:.02em;
+transition:all .25s ease;
+box-shadow:0 8px 20px rgba(0,0,0,.18);
+position:relative;
+overflow:hidden;
+}
+
+/* hover lift + richer gold */
+.btn.btn-call:hover,
+.btn.btn-call:focus-visible{
+background:linear-gradient(180deg,#f6d36a 0%,#d9aa2f 100%);
+transform:translateY(-2px);
+box-shadow:0 16px 40px rgba(0,0,0,.28);
+color:#102019;
+}
+
+/* click press */
+.btn.btn-call:active{
+transform:translateY(0);
+box-shadow:0 6px 14px rgba(0,0,0,.2);
+}
+
+/* subtle light sweep */
+.btn.btn-call::after{
+content:"";
+position:absolute;
+top:0;
+left:-70%;
+width:50%;
+height:100%;
+background:linear-gradient(120deg,transparent,rgba(255,255,255,.35),transparent);
+transition:left .65s ease;
+}
+
+.btn.btn-call:hover::after{
+left:130%;
+}
+</style>
+
 </head>
 <body>
 <!-- HEADER -->
@@ -277,7 +408,7 @@ Get a Free Estimate
 </div>
 <div class="trust-item">
 <div aria-hidden="true" class="trust-icon"><img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAYAAAA8AXHiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAACw9JREFUeNrsXUty2zgQhVPZj2ouEHo9i8gnMHWCSCeItJ2NrRNYOoHszWwln8DKCcycQPRi1uFcYEY5wQw6aU4xTIME/4D5XhXLCX8CicfG60YDUAoAAAAAAAAAAAAAAAAA3MdF1Qv+/OPXuf5zrbcpXp8TiPX2+bff/z56SSxNqI3+c6O3CerSSZz19qC3e02ys/PE0oQiy7SHhfIGid4Wmlyxs8RiUj3DSnmJlSbXwTliWZLqzG18aKkFzqjv1hDwVoTFUNrrwkAqItPJUHAytVu9HbNtORPxo96WBjLS+QvwoT1wPZEzdWeoK6qfK/3eE1eItdN/boVDZFrXReJQX0sP+GTQZDN9bQRKdEIyY53pd74anFj8FfzTpIB8j2eBXJG+xww06IxcRKydcOiyb6v1Rti3lPRRFdazRZPOD9miAR1Av/d7+niFQzd9l0Ui1gdh37bGQ8bcdOYxBwU6xVr6oF0gVr4Q5waexYOw7z3qvlOrFbMHnsXUBWJJYYImDym5yUC3iAT9FbpGrM+oJ+/wdegCvEEdAF3grWfuNGkFCgZSOIN69Dc17zNht9y3Zvmbt+1CJ/OrIpb6sYuJQhdxTceCSLX01BjQ8zsfC/SmKWTxOWnJ2/HZgQh9KORYNZbPneEJiNUuJOt0zbqrKqhX4OghqajMXnTkO6+xOBXaJLSpWTjpcyL1vXPcKubG4heZFmO1WJwO/WShiVKCLVGl/lisO11hdwNZqqq/u2dPMUbVumexBhe2HGfa17wcndyOEuvBgXLNlZyFSlkWs8x2QBV60hRSNFtbjHdq2ADitbBvzflGWUS6rH9lmswEZHNYY1FSn66wR9VOMK6OPguEMt0bykofApEpQNqzB+KdK6lxRbUl/Cnz1JRey/sTVCfCDWWQUnV2qK7XFW4YAkehCZ1rq/WFj33NaKpj1d5+ZDeMlFgUh+Joeihor/wQJ4pdkf7aVnjhyG4YaVNIWCn7mBqR7ZktUS3nwCOEPhTSWWKxIJ9VEOXUGf1kea7PQj8BsVpoEvWfK/U9MGrzQkPL/sK1QnbDKMV7llzUHG54y442mbDAz6fN0PwRB4t7IrthzMQSSBFlvDv69xf1Y/dPiGpFU9iGNTuiGmGxrMFzPKQjch4Kumsw0yAsViXQiBwS4nMOJSwF8i0FYmFyN1gso7UinRTkdlMglCYseeH/Xxv0FJpGEMsIU2hhrsoT+baoVjSFJlGe1CTIaohpEQGPNBYPn99WJNUBVYqm0IpcWleRZrpRcrpyGm7YVrFUnmc3rH2wyj5E3qlbJ81ofc4dfqg5MQiyG0YcbugSgcdlD6Gx+vEUh75X34igsVr2FHnQxDKjN+qK9TU3Kb4t5XJWnoRTvOqE5tFDn5gQx7opushuALEkUiCyDo0FgFgAAGIBIBYAYgEAiAWAWMD44HLOO3UUI5/9R3yLvPswFaarqckbJS9DCyC7oRGuwR8jQmis+sBSdmZE0Fg1wZmjv0BjyRoLxGpGrjV45C8QbgBALADEAkAsAACxABALALEAAMQCfICrndCmiWvHDmQ3NMStQnaDCchuaABkN5gRQmPVB7IbzIigsWoC2Q3FGgvEakYuZDd4DIQbABALALGAkeMtXoH/0I4OOTlBxtn5IJz2UZ9Hf+M+lv4FsfwkEgVJ50ygUNnNTLjkja5P1Pewxaeu5hsDsfwiFJHoo2o+43OQEk3fk6zXg94ObU7zDY3lCaH0RlORP6v2pxFP+2W/6N/YV1hXG8TyucmjymZChT385JIJ1rif1uXsBh9XjmgbUwv9dGa99MJ/86vQTjL3SVdMm5ZYsB2vtFZ7bSKXsxuWCijCwUZ8sweYEu2YE/83BSQjAp70ubM6aTrIbvCTUJc0NXldj47IRgta6e1KfU/BiQqs10lahNRXYiG74WdEGUK15r1Rs6k3ItdCmVen3Vcl10UPeunf/AviBym7bmzzYxWJc1rx674nbftUUJaFrZV0llgj8/5u2VmRhPmiYKH1rsqzU3IGL5XHSnMh3DA8qcICUs36JhU3j5SytDJoLqtYF4g1fFhl38QydEguchLWhhDIHYjlNqiCAmH/yoWROKzrDsKhW7a0IJaD1iow6JitYwtRkdWKDR8FiOWotcojrrkUcZdW62zQW2GR1QKxhrNWS4N1cA7cLN9XsVog1jC4EfZFfXqAnDGxqRD43KqfA6ghJxmCWI5gbqi4vkhFZHpmi7PnuJVNkygJ+Y8glhvNYCh4gnFf1ootTJ5ItmkyD5YfyTgzSLlysykpfTZDUj76Y4/a7ln9nIpjlQPPC77H6seutoDImg+PvB0RmSb8Zd4IL/aOU3S3PfTJSZrk2NPzPyk5v6uK0/AoPEOYD0m8GQmp6MG/sKYwdUekCW67jouTd9GTNrMVCvBkIPWBo+y2kCz7+9FprIxQtc3lLo0qN9Q3ecQ9vIO9kjMWjpSGUyP0kEcwKmIxqfY1Lu3Kaknkfun4HZiycYkgq5q3jUus8OvVWCWkilgrJNw85Ik0lQRpBatEntI1i+IXtgyxkvsFk47fQVHmRN2Bq6XXvX2lpNoVuNDbXLdJlJmaMh+fiSsSaid8vXN2DiIDiZKO3sG0I1KNj1j8hZoyBggrg1A9CMSaVvzdsiY37PE9BAW6so3MiRdliF95S6zMcKZUNAbslYQlAt1EqjQ+k+QIGVqWZ696HFGUGWGTiu9zhbDCqqXMiXdlJ7zxjFQBhw3SUcF7tjTzuqQqcqPLvMOWSDWpSKr0ub8NZBWyOdsKKxQheFXEUnJwswhkha4sX+iLbfPFI5SfCkhFv3fJW5mFqDJgJMydP82Sq82wQlP41hTakiqd6OK+gkiNhH3U/bIRrKbJKtBvrXNEXpRYtncN30lKrk8dhBVs9WLsu8V6KPBIzmwd6CXS+LtNFc+HBW0ihB2WGStFJDsVkGomWUe2FitD2acVyng0eKqmPPQ2PEDJ2yz1bL2yWFT5+sGuMpoq5pfXVrfIo1BBe7Y4ZRaycPADEU7f58gaaZoj76RC5c+Ee6g+SFUgD1689wqZQF11FN/X0HFEpoUNsamSOZ6VJ8VcyblOpnvYkKurARnXNjIC+Vi5SlPVevqPbBWqWMvPBi1XtZwzZQ7grroYkJELdfxvGaWUIxBLaLIsxG7Clbeo2tRwheevmbNT0Aa52gwr5HFr+LgUiGVPLgoVbNnMp9uBm73LhpUnVcZdjXKm5Lrn8q27CiuwtZJy9T9J52PuhgHAntVJOHTZU25WnTJvBPKT03QJi+WQd6vkuNneUVIFBmtlHAACYg0HqVLCOpOc9YC94CknRXIAxBrOakUGrbUzjdUbyFqRYA+FQ4XeM4g1LNaCh/gtO6GtabEbkoqsp5TTFZWFM0CsYa1WYvjySdM8D0kutpqmKZYWZdeDWG6ENiStknYuBwNZqpPh8MomdgdiuUEuij2ZOpdPXY0aKggr7AtIZRXRx1o67sDU/zdhy0VB0G1XK3dlmj6T41Apoj9EgPSsehhL5ykmqrhjOWFyHVqsn3QgSdH8DYeqEf0+iHVSWDS8bRDBKDftWDdSzxaKgp7LklNXdYjcB7E2qkY/GGANsv7UXxepgkUuM4tlUtrLXJXnrTeaCvyijyfnJdFCcKBXi5ZkHICqYQuyUOsmeu6iryflCO4H1Hlt1CFIVUSs4aKmN7pAffkBFtlL1kWBq4QCsfwmWXY96LokI2322MQBALFeN8mm3EymwrxIjL8woaI+VrIHAAAAAAAAAAAAAAAAANfxnwADANI6a5AJYlzVAAAAAElFTkSuQmCC"/></div>
-<div class="trust-text"><strong>Free On-Site Estimates</strong><span>Emailed or text</span></div>
+<div class="trust-text"><strong>Free Estimates</strong><span>Emailed or text</span></div>
 </div>
 </div>
 </div>
@@ -426,17 +557,17 @@ Get a Free Estimate
 </header>
 <div class="work-photos-grid">
 <article class="wp-card wp-card--featured reveal-on-scroll">
-<a aria-label="Request a free estimate for tree removal work in Alliston" class="wp-card-link" href="#final-cta">
+<a aria-label="Request a free estimate for tree removal work in Alliston" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
 <img alt="Arborist tree removal job on a residential property in Alliston completed by Arborize Ltd." decoding="async" loading="lazy" src="assets/img/arborize-arborist-landscape.webp"/>
 <div class="wp-card-caption">
-<p class="wp-card-meta">Featured Project</p>
-<h3 class="wp-card-title">Hazerdous Linden Removal — Alliston, ON</h3>
+<p class="wp-card-meta">Hazerdous Tree Removal</p>
+<h3 class="wp-card-title">Linden Removal — Alliston, ON</h3>
 <p class="wp-card-copy">A large residential removal completed with careful cutting, controlled cleanup and clear communication throughout the job.</p>
 </div>
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for tree removal work in Tottenham" class="wp-card-link" href="#final-cta">
+<a aria-label="Request a free estimate for tree removal work in Tottenham" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
 <img alt="Large tree removal work completed by Arborize Ltd. in Tottenham." decoding="async" loading="lazy" src="assets/img/bucket-truck-tree-pruning.jpg"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Tree Removal</p>
@@ -445,7 +576,7 @@ Get a Free Estimate
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for arborist work in New Tecumseth" class="wp-card-link" href="#final-cta">
+<a aria-label="Request a free estimate for arborist work in New Tecumseth" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
 <img alt="Residential arborist work completed by Arborize Ltd. in New Tecumseth." decoding="async" loading="lazy" src="assets/img/arborist-tree-removal-logs-web.webp"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Tree Removal</p>
@@ -454,16 +585,16 @@ Get a Free Estimate
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="#final-cta">
+<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
 <img alt="Site cleanup and log removal work completed by Arborize Ltd. in Everett." decoding="async" loading="lazy" src="assets/img/clean-job-site.jpg"/>
 <div class="wp-card-caption">
-<p class="wp-card-meta">Site Cleanup</p>
+<p class="wp-card-meta">Clean Job Site</p>
 <h3 class="wp-card-title">Logs removed and site cleared in Alliston, ON</h3>
 </div>
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="#final-cta">
+<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
 <img alt="Site cleanup and log removal work completed by Arborize Ltd. in Everett." decoding="async" loading="lazy" src="assets/img/tree-planting.webp"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Tree Planting</p>
@@ -476,13 +607,13 @@ Get a Free Estimate
 <div class="work-photos-gallery-cta-copy">
 <div class="work-photos-gallery-kicker">Seen enough to know you need help?</div>
 <h3>Need help with a tree on your property?</h3>
-<p>Not sure if it needs pruning, removal or a second opinion? Arborize offers free on-site estimates, clear quotes before any work begins and honest advice on the right next step for your property.</p>
+<p>Not sure if it needs pruning, removal or a second opinion? Clear quotes before any work begins and honest advice on the right next step for your property.</p>
 <div class="work-photos-gallery-actions">
 <a class="btn btn-primary footer-call-btn" href="tel:7052205780">
 <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.07 12.72a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L6.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         Call Now — 705-220-5780
       </a>
-<a class="btn btn-call footer-estimate-btn" href="#final-cta">Get a Free Estimate</a>
+<a class="btn btn-call footer-estimate-btn" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">Get a Free Estimate</a>
 </div>
 <div aria-label="Arborize credentials" class="work-photos-gallery-trust">
 <div class="work-photos-gallery-trust-item"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4"></path><path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z"></path></svg><span>ISA &amp; TRAQ Qualified</span></div>
@@ -522,7 +653,7 @@ Get a Free Estimate
 <span aria-hidden="true" class="faq-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5" viewbox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></span>
 </button>
 <div class="faq-answer" id="faq-a2" role="region">
-<div class="faq-answer-inner"><p>Tree pruning costs depend on several factors including the tree’s location, size, accessibility, species, the amount of pruning required and whether the tree is hazardous. A site visit is required to properly quote the work. Please include your address, phone number and email when reaching out so a visit can be scheduled and your quote can be emailed to you.</p></div>
+<div class="faq-answer-inner"><p>Tree pruning costs depend on several factors including the tree’s location, size, accessibility, species, the amount of pruning required and whether the tree is hazardous. Arborize reviews each property before providing a quote. Please include your address, phone number and email when reaching out so the job can be assessed and your estimate can be sent to you.</p></div>
 </div>
 </div>
 <div class="faq-item" role="listitem">
@@ -540,7 +671,7 @@ Get a Free Estimate
 <span aria-hidden="true" class="faq-icon"><svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.5" viewbox="0 0 24 24"><line x1="12" x2="12" y1="5" y2="19"></line><line x1="5" x2="19" y1="12" y2="12"></line></svg></span>
 </button>
 <div class="faq-answer" id="faq-a4" role="region">
-<div class="faq-answer-inner"><p>Tree removal costs depend on factors such as location, size, accessibility, species and whether the tree is hazardous. A site visit is required to properly quote the job. Please include your address, phone number and email when contacting Arborize so a visit can be scheduled and your quote can be emailed to you.</p></div>
+<div class="faq-answer-inner"><p>Tree removal costs depend on factors such as location, size, accessibility, species and whether the tree is hazardous. Arborize reviews each property before providing a quote. Please include your address, phone number and email when contacting Arborize so the job can be assessed and your estimate can be sent to you.</p></div>
 </div>
 </div>
 <div class="faq-item" role="listitem">
@@ -556,15 +687,336 @@ Get a Free Estimate
 </div>
 </div>
 </section>
-<!-- MINIMAL FOOTER -->
+<style>
+.elite-footer{
+position:relative;
+background:
+radial-gradient(circle at top left, rgba(210,167,66,.10), transparent 34%),
+radial-gradient(circle at top right, rgba(210,167,66,.08), transparent 28%),
+linear-gradient(180deg, #0b1713 0%, #07100d 100%);
+border-top:1px solid rgba(210,167,66,.16);
+margin-top:0;
+overflow:hidden;
+}
+
+.elite-footer::before{
+content:"";
+display:block;
+height:1px;
+width:min(1120px, calc(100% - 48px));
+margin:0 auto;
+background:linear-gradient(90deg, rgba(210,167,66,0), rgba(210,167,66,.32) 18%, rgba(255,255,255,.10) 50%, rgba(210,167,66,.32) 82%, rgba(210,167,66,0));
+}
+
+.elite-footer-main{
+width:min(1120px, calc(100% - 48px));
+margin:0 auto;
+padding:88px 0 0;
+}
+
+.elite-footer-grid{
+display:grid;
+grid-template-columns:minmax(0,1.22fr) minmax(0,.98fr);
+gap:104px;
+align-items:start;
+}
+
+.elite-footer-brand{
+max-width:470px;
+}
+
+.elite-footer-right{
+display:grid;
+grid-template-columns:minmax(170px,.88fr) minmax(240px,1.06fr);
+gap:72px;
+margin-top:42px;
+align-items:start;
+}
+
+.elite-footer-services{
+padding-top:2px;
+}
+
+.elite-footer-brand-name{
+margin:0 0 22px;
+font-family:'Barlow Condensed',sans-serif;
+font-size:clamp(2.1rem,4.2vw,3.35rem);
+line-height:.95;
+letter-spacing:-.02em;
+text-transform:none;
+color:#f5f1e8;
+}
+
+.elite-footer-brand-copy,
+.elite-footer-form-intro,
+.elite-footer-location,
+.elite-footer-meta,
+.elite-footer-contact-note{
+margin:0;
+font-size:17px;
+line-height:1.85;
+color:rgba(245,241,232,.72);
+}
+
+.elite-footer-proof{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:34px;
+}
+
+.elite-footer-proof-item{
+display:inline-flex;
+align-items:center;
+gap:10px;
+padding:10px 14px;
+border:1px solid rgba(210,167,66,.16);
+border-radius:999px;
+background:rgba(255,255,255,.025);
+font-family:'Barlow Condensed',sans-serif;
+font-size:14px;
+letter-spacing:.08em;
+text-transform:uppercase;
+color:#efe5c8;
+}
+
+.elite-footer-proof-item svg{
+width:15px;
+height:15px;
+stroke:#d2a742;
+flex-shrink:0;
+}
+
+.elite-footer-label{
+margin:0 0 26px;
+font-family:'Barlow Condensed',sans-serif;
+font-size:13px;
+font-weight:700;
+letter-spacing:.22em;
+text-transform:uppercase;
+color:rgba(245,241,232,.42);
+}
+
+.elite-footer-nav{
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+.elite-footer-link,
+.elite-footer-email,
+.elite-footer-meta a,
+.bb-credit{
+color:rgba(245,241,232,.82);
+text-decoration:none;
+transition:color .2s ease, opacity .2s ease, transform .2s ease;
+}
+
+.elite-footer-link{
+font-size:17px;
+line-height:1.5;
+}
+
+.elite-footer-link:hover,
+.elite-footer-email:hover,
+.elite-footer-meta a:hover,
+.bb-credit:hover{
+color:#f2c94c;
+}
+
+.elite-footer-contact{
+display:flex;
+flex-direction:column;
+gap:16px;
+}
+
+.elite-footer-phone{
+font-family:'Barlow Condensed',sans-serif;
+font-size:2.15rem;
+line-height:1;
+letter-spacing:-.02em;
+color:#f5f1e8;
+text-decoration:none;
+}
+
+.elite-footer-email{
+font-size:16px;
+word-break:break-word;
+}
+
+.elite-footer-contact-note{
+font-size:15px;
+line-height:1.7;
+color:rgba(245,241,232,.58);
+max-width:26ch;
+}
+
+.elite-footer-cta{
+margin-top:12px;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+width:fit-content;
+padding:14px 18px;
+border:1px solid rgba(210,167,66,.24);
+border-radius:999px;
+background:linear-gradient(180deg, #f2c94c 0%, #d9ab2d 100%);
+color:#102019;
+font-family:'Barlow Condensed',sans-serif;
+font-size:16px;
+font-weight:700;
+letter-spacing:.05em;
+text-transform:uppercase;
+box-shadow:0 12px 30px rgba(0,0,0,.22);
+cursor:pointer;
+transition:transform .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+
+.elite-footer-cta:hover{
+transform:translateY(-2px);
+box-shadow:0 16px 38px rgba(0,0,0,.28);
+filter:brightness(1.03);
+}
+
+.elite-footer-arrow{
+font-size:18px;
+line-height:1;
+}
+
+.elite-footer-form-wrap{
+padding:24px;
+border:1px solid rgba(210,167,66,.14);
+border-radius:28px;
+background:linear-gradient(180deg, rgba(255,255,255,.05) 0%, rgba(255,255,255,.025) 100%);
+box-shadow:0 24px 70px rgba(0,0,0,.22);
+backdrop-filter:blur(14px);
+}
+
+.elite-footer-form-intro{
+margin-bottom:18px;
+font-size:16px;
+line-height:1.75;
+}
+
+.elite-footer-form-wrap .estimate-form{
+min-height:420px;
+border-radius:20px;
+overflow:hidden;
+background:rgba(7,16,13,.5);
+}
+
+.elite-footer-bottom{
+width:min(1120px, calc(100% - 48px));
+margin:72px auto 0;
+padding:26px 0 0;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+.elite-footer-bottom-inner{
+display:flex;
+justify-content:space-between;
+gap:24px;
+align-items:flex-start;
+}
+
+.elite-footer-meta{
+font-size:14px;
+line-height:1.7;
+color:rgba(245,241,232,.7);
+}
+
+.elite-footer-meta.is-quiet{
+text-align:right;
+color:rgba(245,241,232,.48);
+}
+
+.elite-footer-credit-wrap{
+text-align:center;
+padding:24px 0 14px;
+font-size:12px;
+color:rgba(245,241,232,.42);
+}
+
+.bb-credit{
+display:inline-flex;
+align-items:center;
+gap:8px;
+opacity:.78;
+}
+
+.bb-mark{
+height:16px;
+width:auto;
+}
+
+@media (max-width: 1080px){
+  .elite-footer-grid{
+    grid-template-columns:1fr;
+    gap:48px;
+  }
+
+  .elite-footer-right{
+    grid-template-columns:minmax(170px,.88fr) minmax(240px,1.06fr);
+    gap:56px;
+    margin-top:0;
+  }
+}
+
+@media (max-width: 720px){
+  .elite-footer-main{
+    width:min(100% - 32px, 1120px);
+    padding-top:64px;
+  }
+
+  .elite-footer-grid{
+    grid-template-columns:1fr;
+    gap:34px;
+  }
+
+  .elite-footer-right{
+    grid-template-columns:1fr;
+    gap:34px;
+    margin-top:0;
+  }
+
+  .elite-footer-brand-name{
+    font-size:2.5rem;
+  }
+
+  .elite-footer-phone{
+    font-size:1.8rem;
+  }
+
+  .elite-footer-bottom{
+    width:min(100% - 32px, 1120px);
+    margin-top:40px;
+  }
+
+  .elite-footer-bottom-inner{
+    flex-direction:column;
+  }
+
+  .elite-footer-meta.is-quiet{
+    text-align:left;
+  }
+}
+</style>
+<!-- ELITE FOOTER -->
 <footer class="elite-footer" id="contact">
 <div class="elite-footer-main">
 <div class="elite-footer-grid">
 <div class="elite-footer-brand">
 <p class="elite-footer-brand-name">Certified Arborist &amp; Landscape Services in Simcoe County</p>
 <p class="elite-footer-brand-copy">When a tree is too close, too damaged or too risky to ignore, Simcoe County homeowners trust Arborize for honest advice, safe removal and clean results — backed by ISA certification and $5M liability insurance.</p>
+<div class="elite-footer-proof" aria-label="Arborize credentials">
+<span class="elite-footer-proof-item"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> ISA Certified</span>
+<span class="elite-footer-proof-item"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> TRAQ Qualified</span>
+<span class="elite-footer-proof-item"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2.4" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg> $5M Insured</span>
 </div>
-<div>
+</div>
+<div class="elite-footer-right">
+<div class="elite-footer-services">
 <p class="elite-footer-label">Core Services</p>
 <nav class="elite-footer-nav">
 <a class="elite-footer-link" href="#services">Tree Pruning</a>
@@ -574,23 +1026,18 @@ Get a Free Estimate
 <a class="elite-footer-link" href="#services">Mulch, Soil &amp; Property Care</a>
 </nav>
 </div>
-<div>
+<div class="elite-footer-contact-wrap">
 <p class="elite-footer-label">Contact</p>
 <div class="elite-footer-contact">
 <a class="elite-footer-phone" href="tel:7052205780">705-220-5780</a>
 <p class="elite-footer-location">Serving Simcoe County &amp; Surrounding Area</p>
 <a class="elite-footer-email" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">arborizeltd@outlook.com</a>
+<p class="elite-footer-contact-note">Reach out by phone or email, or use the quick estimate form for a fast first step.</p>
 <button type="button" class="elite-footer-cta" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">Request a Free Estimate <span class="elite-footer-arrow">→</span></button>
 </div>
 </div>
-<div class="elite-footer-form-wrap">
-<p class="elite-footer-label">Quick Estimate Request</p>
-<p class="elite-footer-form-intro">A fast way for homeowners to reach out without hunting for an email address.</p>
-<div class="estimate-form">
-<div data-tf-live="01KNAQK5Z9V1ET675RS5NJT6QB"></div>
-<script src="//embed.typeform.com/next/embed.js"></script>
 </div>
-</div>
+
 </div>
 </div>
 <div class="elite-footer-bottom">
@@ -599,11 +1046,40 @@ Get a Free Estimate
 <p class="elite-footer-meta is-quiet">Tree removal, stump grinding, tree planting and consulting across Simcoe County</p>
 </div>
 </div>
-<div style="text-align:center; padding:28px 0 12px; font-size:12px; color:#6b6b6b;">
+<div class="elite-footer-credit-wrap">
 <a class="bb-credit" href="https://brintonbuilds.ca" rel="noopener" target="_blank">
 <img alt="Brinton Builds" class="bb-mark" src="assets/img/BrintonBuilds.png"/>
     Brinton Builds
   </a>
 </div>
 </footer>
-<script defer="True" src="assets/js/main.js"></script></body></html>
+<script defer="True" src="assets/js/main.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var tallyId = 'GxDVNe';
+  var estimateLabels = [
+    'get a free estimate',
+    'request a free estimate'
+  ];
+
+  function shouldOpenTally(el) {
+    var text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
+    var href = (el.getAttribute('href') || '').trim();
+    return estimateLabels.includes(text) || href === '#final-cta';
+  }
+
+  document.querySelectorAll('a, button').forEach(function (el) {
+    if (!shouldOpenTally(el)) return;
+
+    el.setAttribute('data-tally-open', tallyId);
+    el.setAttribute('data-tally-emoji-text', '🌳');
+    el.setAttribute('data-tally-emoji-animation', 'wave');
+
+    if (el.tagName.toLowerCase() === 'a') {
+      el.setAttribute('href', '#');
+    }
+  });
+});
+</script>
+
+</body></html>
