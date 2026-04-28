@@ -4244,6 +4244,22 @@ h1.hero-h1 span { color: #76b82f; text-shadow: 0 0 24px rgba(118,184,47,0.08); }
   .services-list-header {
     padding: 56px 0 26px !important;
   }
+  /* Additional services — mobile flow fixes */
+  .svc-additional-item h3 {
+    max-width: none;
+    font-size: 1.08rem;
+  }
+  .svc-additional-item p {
+    max-width: none;
+  }
+  .svc-additional-item {
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(24,32,22,0.08);
+  }
+  .svc-additional-item:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
 }
 
 /* --- Brinton Builds subtle footer credit --- */
