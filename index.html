@@ -2,7 +2,7 @@
 
 <!-- saved from url=(0029)https://arborize.netlify.app/ -->
 <html lang="en"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
-<meta content="noindex, nofollow" name="robots"/>
+<meta content="index, follow" name="robots"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Arborist &amp; Landscape Services in Simcoe County &amp; Surrounding Areas | Arborize Ltd. | 705-220-5780</title>
 <meta content="Arborize Ltd. provides arborist consulting, tree risk assessments, preservation plans and landscape services in Simcoe County and Surrounding Areas." name="description"/>
@@ -176,7 +176,6 @@ text-transform:uppercase;
 }
 </style>
 
-<script async src="https://tally.so/widgets/embed.js"></script>
 
 <style>
 /* Elite trust credentials spacing */
@@ -222,39 +221,17 @@ font-size:14px;
 
 
 <style>
-/* Button rollover contrast fix */
+/* Button colour & decoration resets */
 .btn.btn-call,
 .btn.btn-call:visited,
 .btn.btn-call:hover,
-.btn.btn-call:focus-visible,
-.btn.btn-primary.services-header-button,
-.btn.btn-primary.services-header-button:hover,
-.btn.btn-primary.services-header-button:focus-visible,
-.elite-footer-cta,
-.elite-footer-cta:hover,
-.elite-footer-cta:focus-visible{
-color:#102019 !important;
+.btn.btn-call:focus-visible{
+color:#ffffff !important;
 text-decoration:none;
 }
 
-.btn.btn-call:hover,
-.btn.btn-call:focus-visible,
-.btn.btn-primary.services-header-button:hover,
-.btn.btn-primary.services-header-button:focus-visible,
-.elite-footer-cta:hover,
-.elite-footer-cta:focus-visible{
-background:linear-gradient(180deg, #f5cf58 0%, #ddb33a 100%) !important;
-border-color:rgba(210,167,66,.34) !important;
-box-shadow:0 16px 38px rgba(0,0,0,.28) !important;
-filter:none !important;
-}
-
 .btn.btn-call:hover svg,
-.btn.btn-call:focus-visible svg,
-.btn.btn-primary.services-header-button:hover svg,
-.btn.btn-primary.services-header-button:focus-visible svg,
-.elite-footer-cta:hover svg,
-.elite-footer-cta:focus-visible svg{
+.btn.btn-call:focus-visible svg{
 stroke:currentColor;
 fill:none;
 }
@@ -262,36 +239,40 @@ fill:none;
 
 
 <style>
-/* ELITE CTA BUTTON — refined hover interaction */
+/* ELITE CTA BUTTON — frosted white */
 .btn.btn-call{
-background:linear-gradient(180deg,#f2c94c 0%,#e3b73d 100%);
-color:#102019;
+background:rgba(255,255,255,0.18);
+color:#ffffff;
+border:1.5px solid rgba(255,255,255,0.38);
 border-radius:999px;
-padding:14px 30px;
+padding:14px 32px;
 font-weight:600;
-letter-spacing:.02em;
-transition:all .25s ease;
-box-shadow:0 8px 20px rgba(0,0,0,.18);
+letter-spacing:.015em;
+transition:background .22s ease, border-color .22s ease, transform .2s ease, box-shadow .22s ease;
+box-shadow:0 2px 0 rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.12);
+backdrop-filter:blur(6px);
+-webkit-backdrop-filter:blur(6px);
 position:relative;
 overflow:hidden;
 }
 
-/* hover lift + richer gold */
+/* hover — brighten frost */
 .btn.btn-call:hover,
 .btn.btn-call:focus-visible{
-background:linear-gradient(180deg,#f6d36a 0%,#d9aa2f 100%);
+background:rgba(255,255,255,0.28);
+border-color:rgba(255,255,255,0.65);
 transform:translateY(-2px);
-box-shadow:0 16px 40px rgba(0,0,0,.28);
-color:#102019;
+box-shadow:0 2px 0 rgba(0,0,0,.06), 0 18px 42px rgba(0,0,0,.20);
+color:#ffffff;
 }
 
-/* click press */
+/* press */
 .btn.btn-call:active{
 transform:translateY(0);
-box-shadow:0 6px 14px rgba(0,0,0,.2);
+box-shadow:0 2px 0 rgba(0,0,0,.06), 0 4px 12px rgba(0,0,0,.14);
 }
 
-/* subtle light sweep */
+/* shimmer sweep */
 .btn.btn-call::after{
 content:"";
 position:absolute;
@@ -299,8 +280,8 @@ top:0;
 left:-70%;
 width:50%;
 height:100%;
-background:linear-gradient(120deg,transparent,rgba(255,255,255,.35),transparent);
-transition:left .65s ease;
+background:linear-gradient(120deg,transparent,rgba(255,255,255,.6),transparent);
+transition:left .55s ease;
 }
 
 .btn.btn-call:hover::after{
@@ -364,13 +345,7 @@ Certified<span><br/>Arborist and Landscaping Services</span>
 <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.07 12.72a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L6.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
             Call Now - 705-220-5780
           </a>
-<button 
-class="btn btn-call"
-data-tally-open="GxDVNe"
-data-tally-emoji-text="🌳"
-data-tally-emoji-animation="wave">
-Get a Free Estimate
-</button>
+<a class="btn btn-call" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">Get a Free Estimate</a>
 </div>
 <div aria-label="Key credentials" class="hero-trust-row" role="list">
 <span class="hero-trust-item" role="listitem">
@@ -438,7 +413,7 @@ Get a Free Estimate
 </div>
 </div>
 <div class="services-header-cta">
-<button type="button" class="btn btn-primary services-header-button" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">Request a Free Estimate</button>
+<a class="btn btn-primary services-header-button" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">Request a Free Estimate</a>
 </div>
 </header>
 <!-- Primary Services: 3-column grid -->
@@ -557,7 +532,7 @@ Get a Free Estimate
 </header>
 <div class="work-photos-grid">
 <article class="wp-card wp-card--featured reveal-on-scroll">
-<a aria-label="Request a free estimate for tree removal work in Alliston" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
+<a aria-label="Request a free estimate for tree removal work in Alliston" class="wp-card-link" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">
 <img alt="Arborist tree removal job on a residential property in Alliston completed by Arborize Ltd." decoding="async" loading="lazy" src="assets/img/arborize-arborist-landscape.webp"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Hazerdous Tree Removal</p>
@@ -567,7 +542,7 @@ Get a Free Estimate
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for tree removal work in Tottenham" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
+<a aria-label="Request a free estimate for tree removal work in Tottenham" class="wp-card-link" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">
 <img alt="Large tree removal work completed by Arborize Ltd. in Tottenham." decoding="async" loading="lazy" src="assets/img/bucket-truck-tree-pruning.jpg"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Tree Removal</p>
@@ -576,7 +551,7 @@ Get a Free Estimate
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for arborist work in New Tecumseth" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
+<a aria-label="Request a free estimate for arborist work in New Tecumseth" class="wp-card-link" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">
 <img alt="Residential arborist work completed by Arborize Ltd. in New Tecumseth." decoding="async" loading="lazy" src="assets/img/arborist-tree-removal-logs-web.webp"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Tree Removal</p>
@@ -585,7 +560,7 @@ Get a Free Estimate
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
+<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">
 <img alt="Site cleanup and log removal work completed by Arborize Ltd. in Everett." decoding="async" loading="lazy" src="assets/img/clean-job-site.jpg"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Clean Job Site</p>
@@ -594,7 +569,7 @@ Get a Free Estimate
 </a>
 </article>
 <article class="wp-card reveal-on-scroll">
-<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">
+<a aria-label="Request a free estimate for site cleanup work in Everett" class="wp-card-link" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">
 <img alt="Site cleanup and log removal work completed by Arborize Ltd. in Everett." decoding="async" loading="lazy" src="assets/img/tree-planting.webp"/>
 <div class="wp-card-caption">
 <p class="wp-card-meta">Tree Planting</p>
@@ -613,7 +588,7 @@ Get a Free Estimate
 <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewbox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 3.07 12.72a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L6.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
         Call Now — 705-220-5780
       </a>
-<a class="btn btn-call footer-estimate-btn" href="#" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">Get a Free Estimate</a>
+<a class="btn btn-call footer-estimate-btn" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">Get a Free Estimate</a>
 </div>
 <div aria-label="Arborize credentials" class="work-photos-gallery-trust">
 <div class="work-photos-gallery-trust-item"><svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M9 12l2 2 4-4"></path><path d="M12 3l7 4v5c0 5-3.5 8-7 9-3.5-1-7-4-7-9V7l7-4z"></path></svg><span>ISA &amp; TRAQ Qualified</span></div>
@@ -1033,7 +1008,7 @@ width:auto;
 <p class="elite-footer-location">Serving Simcoe County &amp; Surrounding Area</p>
 <a class="elite-footer-email" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">arborizeltd@outlook.com</a>
 <p class="elite-footer-contact-note">Reach out by phone or email, or use the quick estimate form for a fast first step.</p>
-<button type="button" class="elite-footer-cta" data-tally-open="GxDVNe" data-tally-emoji-text="🌳" data-tally-emoji-animation="wave">Request a Free Estimate <span class="elite-footer-arrow">→</span></button>
+<a class="elite-footer-cta" href="mailto:arborizeltd@outlook.com?subject=Estimate%20Request%20%E2%80%94%20Arborize%20Ltd.">Request a Free Estimate <span class="elite-footer-arrow">→</span></a>
 </div>
 </div>
 </div>
@@ -1054,32 +1029,5 @@ width:auto;
 </div>
 </footer>
 <script defer="True" src="assets/js/main.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  var tallyId = 'GxDVNe';
-  var estimateLabels = [
-    'get a free estimate',
-    'request a free estimate'
-  ];
-
-  function shouldOpenTally(el) {
-    var text = (el.textContent || '').replace(/\s+/g, ' ').trim().toLowerCase();
-    var href = (el.getAttribute('href') || '').trim();
-    return estimateLabels.includes(text) || href === '#final-cta';
-  }
-
-  document.querySelectorAll('a, button').forEach(function (el) {
-    if (!shouldOpenTally(el)) return;
-
-    el.setAttribute('data-tally-open', tallyId);
-    el.setAttribute('data-tally-emoji-text', '🌳');
-    el.setAttribute('data-tally-emoji-animation', 'wave');
-
-    if (el.tagName.toLowerCase() === 'a') {
-      el.setAttribute('href', '#');
-    }
-  });
-});
-</script>
 
 </body></html>
